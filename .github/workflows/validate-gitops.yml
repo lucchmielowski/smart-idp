@@ -3,13 +3,8 @@ name: Validate GitOps Manifests
 
 on:
   pull_request:
-    paths:
-      - 'demo-cluster/**'
-  push:
     branches:
       - main
-    paths:
-      - 'demo-cluster/**'
 
 jobs:
   validate:
